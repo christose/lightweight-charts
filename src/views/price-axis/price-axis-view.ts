@@ -19,6 +19,7 @@ export abstract class PriceAxisView implements IPriceAxisView {
 
 	private readonly _axisRendererData: PriceAxisViewRendererData = {
 		text: '',
+		textPosition: '',
 		visible: false,
 		tickVisible: true,
 		moveTextToInvisibleTick: false,
@@ -27,6 +28,7 @@ export abstract class PriceAxisView implements IPriceAxisView {
 
 	private readonly _paneRendererData: PriceAxisViewRendererData = {
 		text: '',
+		textPosition: '',
 		visible: false,
 		tickVisible: false,
 		moveTextToInvisibleTick: true,

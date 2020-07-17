@@ -59,7 +59,7 @@ export class PriceAxisViewRenderer implements IPriceAxisViewRenderer {
 		const yTop = yMid - halfHeigth;
 		const yBottom = yTop + totalHeight;
 
-		const alignRight = align === 'right';
+		const alignRight = this._data.textPosition === 'right';
 
 		const xInside = alignRight ? width : 0;
 		const rightScaled = Math.ceil(width * pixelRatio);

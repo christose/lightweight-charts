@@ -43,6 +43,7 @@ export class CustomPriceLinePriceAxisView extends PriceAxisView {
 		if (showPaneLabel) {
 			paneRendererData.text = options.title;
 			paneRendererData.visible = true;
+			paneRendererData.textPosition = options.titlePosition;
 		}
 
 		paneRendererData.borderColor = this._series.model().options().layout.backgroundColor;

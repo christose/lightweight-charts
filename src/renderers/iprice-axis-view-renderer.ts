@@ -12,6 +12,7 @@ export interface PriceAxisViewRendererCommonData {
 export interface PriceAxisViewRendererData {
 	visible: boolean;
 	text: string;
+	textPosition: string;
 	tickVisible: boolean;
 	moveTextToInvisibleTick: boolean;
 	borderColor: string;
